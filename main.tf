@@ -49,7 +49,7 @@ module "intersight_policy_bundle" {
   description   = "Created by Terraform"
 
   # Fabric Interconnect 6454 config specifics
-  server_ports_6454 = [17, 18]
+  server_ports_6454 = [17, 18, 19, 20]
   port_channel_6454 = [49, 50]
   uplink_vlans_6454 = {
     "vlan1020" : 1020,
