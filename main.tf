@@ -49,7 +49,7 @@ module "intersight_policy_bundle" {
   description   = "Created by Terraform"
 
   # Fabric Interconnect 6454 config specifics
-  server_ports_6454 = [17, 18, 19, 20]
+  server_ports_6454 = [17, 18, 19, 20, 21, 22]
   port_channel_6454 = [49, 50]
   uplink_vlans_6454 = {
     "vlan1020" : 1020,
@@ -69,7 +69,7 @@ module "intersight_policy_bundle" {
   ntp_timezone = "America/Winnipeg"
 
     tags = [
-    { "key" : "Environment", "value" : "PDC-Prod" },
+    { "key" : "Environment", "value" : "BDC-Prod" },
     { "key" : "Orchestrator", "value" : "Terraform" }
   ]
 }
