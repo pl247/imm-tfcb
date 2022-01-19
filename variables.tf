@@ -4,13 +4,11 @@
 variable "api_key" {
     description = "API Key for Terraform Demo Account"
     type = string
-#   default = "59af0e11f11aa10001678016/59af0ceef11aa100016748f0/5fad6f147564612d3348b2cb"
 }
 
 variable "secretkey" {
     description = "Filename (PEM) that provides secret key for Terraform Demo Account"
     type = string
-#    default = "SecretKey.txt"
 }
 
 variable "endpoint" {

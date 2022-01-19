@@ -1,10 +1,5 @@
 terraform {
 
-  /*
-  To use remote state and leverage Terraform Cloud uncomment the backend code block
-  and set the organization and workspace strings.
-  */
-
   backend "remote" {
     organization = "Cisco-Richfield-Lab"
 
@@ -13,7 +8,6 @@ terraform {
     }
   }
 
-#    required_version = "1.0.3"
     required_providers {
         intersight = {
             source = "CiscoDevNet/intersight"
