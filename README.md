@@ -15,6 +15,5 @@ If you do not like the defaults (IE: MAC and IP pools) that this plan creates, t
 2. Edit the name of the backend organization variable in the main.tf to match that of your TFCB organization
 
 3. Add the following variables in your imm-tfcb workspace:
-
 - api_key = the API Key ID you create in Intersight using version 2
 - secretkey (make sensitive) = the secretkey of your Intersight API key
