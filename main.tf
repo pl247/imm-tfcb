@@ -35,8 +35,6 @@ module "intersight_policy_bundle" {
 
   # external sources
   organization    = data.intersight_organization_organization.default.id
-  #vnic_mac_pool   = var.mac_pool_moid
-  #imc_access_pool = var.ip_pool_moid
 
   # every policy created will have this prefix in its name
   policy_prefix = "bdc"

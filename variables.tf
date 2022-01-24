@@ -1,13 +1,13 @@
 # https://intersight.com/an/settings/api-keys/
-## Generate API key to obtain the API Key and PEM file
+## Generate API key to obtain the API key and secret key
 
 variable "api_key" {
-    description = "API Key for Terraform Demo Account"
+    description = "API key for Intersight account"
     type = string
 }
 
 variable "secretkey" {
-    description = "Filename (PEM) that provides secret key for Terraform Demo Account"
+    description = "Filename that provides secret key for Intersight API"
     type = string
 }
 
@@ -19,7 +19,6 @@ variable "endpoint" {
 
 variable "organization" {
     type = string
-#    default = "5ddeb24d6972652d3100cb82"
     default = "default"
 }
 
