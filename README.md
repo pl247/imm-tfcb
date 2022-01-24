@@ -8,7 +8,7 @@ https://github.com/pl247/tf-intersight-policy-bundle
 
 If you do not like the defaults (IE: MAC and IP pools) that this plan creates, take a look at the policy bundle (link above) and feel free to modify them to what you want (see the pools.tf file). I am hoping to eventually make them all variables.
 
-# Directions
+### Directions
 
 1. Create a workspace in TFCB called imm-tfcb
 
