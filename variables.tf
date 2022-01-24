@@ -19,6 +19,7 @@ variable "endpoint" {
 
 variable "organization" {
     type = string
-    default = "5ddeb24d6972652d3100cb82"
+#    default = "5ddeb24d6972652d3100cb82"
+    default = "default"
 }
 
