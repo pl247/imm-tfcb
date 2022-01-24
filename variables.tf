@@ -22,14 +22,3 @@ variable "organization" {
     default = "5ddeb24d6972652d3100cb82"
 }
 
-#variable "mac_pool_moid" {
-#    type = string
-#    default = "609edfa36962752d30ce1434"
-#}
-
-# Only needed if you decide to hard code the IMC access pool
-#variable "ip_pool_moid" {
-#    type = string
-#    default = "60c3d28c6962752d30d3b964"
-#}
-
