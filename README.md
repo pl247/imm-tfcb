@@ -16,5 +16,5 @@ This terraform plan creates various pools, policies, a UCS server profile templa
 This simple use case references an Intersight policy bundle here:
 https://github.com/pl247/tf-intersight-policy-bundle
 
-If you do not like the defaults that this plan creates, take a look at the policy bundle and feel free to modify them to what you want. I am hoping to eventually make them all variables.
+If you do not like the defaults (IE: MAC and IP pools) that this plan creates, take a look at the policy bundle and feel free to modify them to what you want (see the pools.tf file). I am hoping to eventually make them all variables.
 
