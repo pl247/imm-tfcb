@@ -60,6 +60,8 @@ module "intersight_policy_bundle" {
 
   ntp_timezone = "America/Winnipeg"
 
+  wwnn-block = "20:00:00:CA:FE:00:00:01"
+
     tags = [
     { "key" : "Environment", "value" : "BDC-Prod" },
     { "key" : "Orchestrator", "value" : "Terraform" }
