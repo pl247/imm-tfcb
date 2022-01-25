@@ -17,3 +17,7 @@ The plan does not currently create a storage policy, so you will need to build t
 3. Add the following variables in your imm-tfcb workspace:
 - api_key = the API Key ID you create in Intersight using version 2
 - secretkey (make sensitive) = the secretkey of your Intersight API key
+
+### Note about Terraform destroy
+
+When attempting a `terraform destroy`, Terraform is unable to remove the policies that are in use (IE: by the domain profile). To get around this, you will have to delete the domain profile manually first and possibly any server profiles that are using any of the profiles or policies created.
