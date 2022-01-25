@@ -60,7 +60,12 @@ module "intersight_policy_bundle" {
 
   ntp_timezone = "America/Winnipeg"
 
-  wwnn-block = "20:00:00:CA:FE:00:00:01"
+# starting values for wwnn, wwpn-a/b and mac pools (size 255)
+  wwnn-block   = "20:00:00:CA:FE:00:00:01"
+  wwpn-a-block = "20:00:00:CA:FE:0A:00:01"
+  wwpn-b-block = "20:00:00:CA:FE:0B:00:01"
+
+  mac-block    = "00:CA:FE:00:00:01"
 
     tags = [
     { "key" : "Environment", "value" : "BDC-Prod" },
