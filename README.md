@@ -1,12 +1,12 @@
 
 # Terraform Cloud for Business with Intersight IMM
 
-This terraform plan creates various pools, policies, a UCS server profile template, and a UCS domain profile.
+This simple terraform plan for Intersight creates the minimum required pools and policies so that it can create a server profile template and a domain profile.
 
 To keep the code compact, and simple it references an Intersight policy bundle here:
 https://github.com/pl247/tf-intersight-policy-bundle
 
-If you do not like the defaults (IE: MAC and IP pools) that this plan creates, take a look at the policy bundle (link above) and feel free to modify them to what you want (see the pools.tf file). I am hoping to eventually make them all variables.
+The plan does not currently create a storage policy, so you will need to build that to your needs and reference it in your template.
 
 ### Directions
 
