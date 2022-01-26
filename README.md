@@ -1,5 +1,5 @@
 
-# Terraform Cloud for Business with Intersight IMM
+# Creating servers in Intersight using Terraform Cloud for Business
 
 This simple terraform plan for Intersight creates the minimum required pools and policies so that it can also create a server profile template and a domain profile.
 
